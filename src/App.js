@@ -27,11 +27,15 @@ function App(){
   return( 
   <>
   <User 
-  name = "Tugba" 
+  //name = "Tugba" 
   surname ="Bozkurt" 
   age = {22} 
   isLoggedIn = {true} 
   friends = {friends}
+  adress = {{
+    title: 'Ataşehir/İstanbul',
+    zip: 34750
+  }}
    />
   </>
 );
